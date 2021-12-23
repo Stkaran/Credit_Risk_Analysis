@@ -41,6 +41,8 @@ Lastly, the sixth model used EasyEnsemble(a form adaptive boosting) and random u
   * The recalls were 94% for low risk and 91% for high risk.
 
 ## Results
+Overall, the accuracy trend in our models moved in a positive direction. Specifically, both the balanced accuracy scores and recall values improved with each successive model. The EasyEnsemble was the best of the bunch and by the end the model was able to accurately identify over 90% of both low-risk and high-risk cases. However, there was one issue that was never truly solved and it lay with the fact that the high-risk precison score at its highest was only 7%. In this context though, low precision and high sensitivty is acceptable. With this combination there will be a significant amount of false positives flagged as high risk, but as a business, it can be better to be on the safe side and lose a few potential customers rather than expose yourself to a lot of high risk cases. Due to this, I would argue that the EasyEnsemble model meets the requirements and can be used effectively in certain scenarios.  
+
 
 
 
