@@ -22,7 +22,27 @@ The model departed from the first to models and used undersampling with the Clus
   * The precision for high risk was 1% and low risk was 100%.
   * The recalls were 44% for low risk and 59% for high risk.
 
-![]()
+![](https://github.com/Stkaran/Credit_Risk_Analysis/blob/main/Resources/Smoteen.png)
+The fourth model combines both over and undersampling methods with SMOTEEN.
+  * The balanced accuracy score was also 62%.
+  * The precision for high risk was 1% and low risk was 100%.
+  * The recalls were 54% for low risk and 70% for high risk.
+
+![](https://github.com/Stkaran/Credit_Risk_Analysis/blob/main/Resources/BalancedRandomForest.png)
+The fifth model used BalancedRandomForest classifier which undersamples the majority class in order to balance the dataset.
+  * The balanced accuracy score was also 79%.
+  * The precision for high risk was 4% and low risk was 100%.
+  * The recalls were 91% for low risk and 67% for high risk.
+
+![](https://github.com/Stkaran/Credit_Risk_Analysis/blob/main/Resources/EasyEnsemble.png)
+Lastly, the sixth model used EasyEnsemble(a form adaptive boosting) and random undersampling on the dataset.
+  * The balanced accuracy score was also 93%.
+  * The precision for high risk was 7% and low risk was 100%.
+  * The recalls were 94% for low risk and 91% for high risk.
+
+## Results
+
+
 
 
 
